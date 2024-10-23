@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reto 2</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <section class="header__content">
+      <section class="header__content__textInfo">
+        <span>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</span>
+        <span class="header__content__textInfo--strong">ShopNow</span>
+      </section>
+      <select class="header__content__textInfo__select" name="lenguajes" id="lang">
+        <option value="en">English</option>
+        <option value="es">Spanish</option>
+      </select>
+    </section>
+  </header>
+  <!-- NavBar -->
+  <nav class="nav">
+    <section class="nav__content">
+      <span class="nav__content--Logo">Exclusive</span>
+      <div class="nav__content--links">
+        <a class="nav__link nav__link--active" href="">Home</a>
+        <a class="nav__link" href="">Contact</a>
+        <a class="nav__link" href="">About</a>
+        <a class="nav__link" href="">Sign Up</a>
+      </div>
+    </section>
+    <section class="nav__actions">
+      <div class="nav__actions__search">
+        <input class="nav__actions__search--input" type="text" name="search" id="search"
+          placeholder="What are you looking for?">
+        <figure class="nav__actions__search--figure">
+          <img src="./Iconos/Saecrh.svg" alt="Search">
+        </figure>
+      </div>
+      <div class="nav__actions__icons">
+        <figure class="nav__actions__icons--figure">
+          <img src="./Iconos/Heart.svg" alt="Heart">
+        </figure>
+        <figure class="nav__actions__icons--figure">
+          <img src="./Iconos/Cart1.svg" alt="Shoping-Cart">
+        </figure>
+      </div>
+    </section>
+  </nav>
+  <hr>
+  <!-- ========= Cuerpo de la pagina ============ -->
+  <main>
+    <!-- Banner -->
+    <section class="banner">
+      <aside class="banner__aside">
+        <a class="banner__aside--link">Woman’s Fashion</a>
+        <a class="banner__aside--link">Men’s Fashion</a>
+        <a class="banner__aside--link">Electronics</a>
+        <a class="banner__aside--link">Home & Lifestyle</a>
+        <a class="banner__aside--link">Medicine</a>
+        <a class="banner__aside--link">Sports & Outdoor</a>
+        <a class="banner__aside--link">Baby’s & Toys</a>
+        <a class="banner__aside--link">Groceries & Pets</a>
+        <a class="banner__aside--link">Health & Beauty</a>
+      </aside>
+      <section class="highlight">
+        <article class="highlight__content">
+          <div class="highlight__content__info">
+            <figure class="content__info__figure">
+              <img class="content__info__figure--img" src="https://i.postimg.cc/CLKRYM4j/Apple-gray-logo-1.png"
+                alt="Logo apple">
+              <figcaption class="content__info__figure--fgcaption">iPhone 14 Series</figcaption>
+            </figure>
+            <div class="content__info__text">
+              Up to 10% off Voucher
+            </div><br>
+            <button class="content__button">
+              <span class="content__button--text">Shop now</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="highlight__content__footer">
+            <span class="highlight__content__footer--radio"></span>
+            <span class="highlight__content__footer--radio"></span>
+            <span class="highlight__content__footer--radio radio--active"></span>
+            <span class="highlight__content__footer--radio"></span>
+            <span class="highlight__content__footer--radio"></span>
+          </div>
+        </article>
+        <article class="highlight__image">
+          <figure class="highlight__image__figure">
+            <img class="highlight__image__figure--img"
+              src="https://i.postimg.cc/htW2x3pj/hero-endframe-cvklg0xk3w6e-large-2.png" alt="Phone">
+            <figcaption></figcaption>
+          </figure>
+        </article>
+      </section>
+    </section>
+    <!-- Flash Sales -->
+    <section class="section">
+      <section class="section__header">
+        <article class="section__header--title">
+          <span class="section__header--title-span"></span>
+          <span class="section__header--title-text">Today’s</span>
+        </article>
+        <article class="section__header--content">
+          <div class="section__header--content--text">
+            <span class="content--text--logo">Flash Sales</span>
+            <table class="section__table">
+              <tr>
+                <th class="section__table--title">Dias</th>
+                <th class="section__table--title"></th>
+                <th class="section__table--title">Horas</th>
+                <th class="section__table--title"></th>
+                <th class="section__table--title">Minutos</th>
+                <th class="section__table--title"></th>
+                <th class="section__table--title">Segundos</th>
+              </tr>
+              <tr>
+                <td class="section__table--content">03</td>
+                <td class="table--separator">:</td>
+                <td class="section__table--content">23</td>
+                <td class="table--separator">:</td>
+                <td class="section__table--content">19</td>
+                <td class="table--separator">:</td>
+                <td class="section__table--content">56</td>
+              </tr>
+            </table>
+          </div>
+          <button class="section__header__btn">View All Products</button>
+        </article>
+      </section>
+      <section class="section__body">
+        <article class="card">
+          <div class="card__content">
+            <figure class="card__figure">
+              <span class="card__Badges--Discount">-40%</span>
+              <i class="card__figure--img">
+                <img class="" src="https://i.ibb.co/YQymfzs/Control-game.png" alt="">
+              </i>
+            </figure>
+            <div class="card__content--iconos">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-eye"></i>
+            </div>
+          </div>
+          <span class="card__addbtn--transparent">Add To Cart</span>
+          <p class="card__content--description">HAVIT HV-G92 Gamepad</p>
+          <span class="card__price--currentPrice">$120</span>
+          <span class="card__price--previousPrice">$160</span>
+          <div class="card__valoration">
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <span class="card__valoration--amount">(88)</span>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__content">
+            <figure class="card__figure">
+              <span class="card__Badges--Discount">-35%</span>
+              <i class="card__figure--img">
+                <img class="" src="https://i.postimg.cc/dVW186Sz/KeyBoard.png" alt="">
+              </i>
+            </figure>
+            <div class="card__content--iconos">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-eye"></i>
+            </div>
+          </div>
+          <span class="card__addbtn">Add To Cart</span>
+          <p class="card__content--description">AK-900 Wired Keyboard</p>
+          <span class="card__price--currentPrice">$960</span>
+          <span class="card__price--previousPrice">$1160</span>
+          <div class="card__valoration">
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <span class="card__valoration--amount">(88)</span>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__content">
+            <figure class="card__figure">
+              <span class="card__Badges--Discount">-30%</span>
+              <i class="card__figure--img">
+                <img class="" src="https://i.postimg.cc/k5zgH4Cs/Monitor.png" alt="">
+              </i>
+            </figure>
+            <div class="card__content--iconos">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-eye"></i>
+            </div>
+          </div>
+          <span class="card__addbtn--transparent">Add To Cart</span>
+          <p class="card__content--description">IPS LCD Gaming Monitor</p>
+          <span class="card__price--currentPrice">$370</span>
+          <span class="card__price--previousPrice">$400</span>
+          <div class="card__valoration">
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <span class="card__valoration--amount">(88)</span>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__content">
+            <figure class="card__figure">
+              <span class="card__Badges--Discount">-25%</span>
+              <i class="card__figure--img">
+                <img class="" src="https://i.postimg.cc/NFhLK0PF/Chair.png" alt="">
+              </i>
+            </figure>
+            <div class="card__content--iconos">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-eye"></i>
+            </div>
+          </div>
+          <span class="card__addbtn--transparent">Add To Cart</span>
+          <span class="card__content--description">The north coat</span>
+          <div class="card__price">
+            <span class="card__price--currentPrice">$375</span>
+            <span class="card__price--previousPrice">$400</span>
+          </div>
+          <div class="card__valoration">
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--fill"></i>
+            <span class="card__valoration--amount">(65)</span>
+          </div>
+        </article>
+      </section>
+      <section class="section__footer">
+        <button class="section__header__btn">View All Products</button>
+      </section>
+    </section>
+    <!-- Browse By Category -->
+    <section class="section">
+      <section class="section__header">
+        <article class="section__header--title">
+          <span class="section__header--title-span"></span>
+          <span class="section__header--title-text">Categories</span>
+        </article>
+        <article class="section__header--content">
+          <div class="section__header--content--text">
+            <span class="content--text--logo">Browse By Category</span>
+          </div>
+          <div class="section__header--arrows">
+            <i class="fa-solid fa-arrow-left"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </article>
+      </section>
+      <section class="section__body">
+        <article class="simplecard">
+          <span class="simplecard__icon">
+            <img src="Iconos/Category-CellPhonepng.png" alt="">
+          </span>
+          <span>Phones</span>
+        </article>
+        <article class="simplecard">
+          <span class="simplecard__icon">
+            <img src="Iconos/Category-Computer.svg" alt="">
+          </span>
+          <span>Computers</span>
+        </article>
+        <article class="simplecard">
+          <span class="simplecard__icon">
+            <img src="Iconos/Category-SmartWatch.svg" alt="">
+          </span>
+          <span>SmartWatch</span>
+        </article>
+        <article class="simplecard--hover">
+          <span class="simplecard__icon">
+            <img src="Iconos/Category-Camera.svg" alt="">
+          </span>
+          <span>Camera</span>
+        </article>
+        <article class="simplecard">
+          <span class="simplecard__icon">
+            <img src="Iconos/Category-Headphone.svg" alt="">
+          </span>
+          <span>HeadPhones</span>
+        </article>
+        <article class="simplecard">
+          <span class="simplecard__icon">
+            <img src="Iconos/Category-Gamepad.svg" alt="">
+          </span>
+          <span>Gaming</span>
+        </article>
+      </section>
+      <section class="section__footer">
+        <!-- <button class="section__header__btn">View All Products</button> -->
+      </section>
+    </section>
+    <!-- Best Selling Products -->
+    <section class="section">
+      <section class="section__header">
+        <article class="section__header--title">
+          <span class="section__header--title-span"></span>
+          <span class="section__header--title-text">This Month</span>
+        </article>
+        <article class="section__header--content">
+          <div class="section__header--content--text">
+            <span class="content--text--logo">Best Selling Products</span>
+          </div>
+          <button class="section__header__btn">View All Products</button>
+        </article>
+      </section>
+      <section class="section__body">
+        <article class="card">
+          <div class="card__content">
+            <figure class="card__figure">
+              <span class="card__Badges--Transparent">%</span>
+              <i class="card__figure--img">
+                <img class="" src="https://i.postimg.cc/Vvjvnc3R/Buso.png" alt="">
+              </i>
+            </figure>
+            <div class="card__content--iconos">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-eye"></i>
+            </div>
+          </div>
+          <span class="card__addbtn--transparent">Add To Cart</span>
+          <p class="card__content--description">The north coat</p>
+          <span class="card__price--currentPrice">$260</span>
+          <span class="card__price--previousPrice">$360</span>
+          <div class="card__valoration">
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <span class="card__valoration--amount">(65)</span>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__content">
+            <figure class="card__figure">
+              <span class="card__Badges--Transparent">%</span>
+              <i class="card__figure--img">
+                <img class="" src="https://i.postimg.cc/8kWjqhj6/Bag.png" alt="">
+              </i>
+            </figure>
+            <div class="card__content--iconos">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-eye"></i>
+            </div>
+          </div>
+          <span class="card__addbtn--transparent">Add To Cart</span>
+          <p class="card__content--description">Gucci duffle bag</p>
+          <span class="card__price--currentPrice">$960</span>
+          <span class="card__price--previousPrice">$1160</span>
+          <div class="card__valoration">
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <span class="card__valoration--amount">(65)</span>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__content">
+            <figure class="card__figure">
+              <span class="card__Badges--Transparent">%</span>
+              <i class="card__figure--img">
+                <img class="" src="https://i.postimg.cc/MpZHMNt7/graphic-card.png" alt="">
+              </i>
+            </figure>
+            <div class="card__content--iconos">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-eye"></i>
+            </div>
+          </div>
+          <span class="card__addbtn--transparent">Add To Cart</span>
+          <p class="card__content--description">RGB liquid CPU Cooler</p>
+          <span class="card__price--currentPrice">$160</span>
+          <span class="card__price--previousPrice">$170</span>
+          <div class="card__valoration">
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <span class="card__valoration--amount">(88)</span>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__content">
+            <figure class="card__figure">
+              <span class="card__Badges--Transparent">%</span>
+              <i class="card__figure--img">
+                <img class="" src="https://i.postimg.cc/fTfkbD7W/furniture.png" alt="">
+              </i>
+            </figure>
+            <div class="card__content--iconos">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-eye"></i>
+            </div>
+          </div>
+          <span class="card__addbtn--transparent">Add To Cart</span>
+          <p class="card__content--description">Small BookSelf</p>
+          <span class="card__price--currentPrice">$360</span>
+          <span class="card__price--previousPrice"></span>
+          <div class="card__valoration">
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <span class="card__valoration--amount">(88)</span>
+          </div>
+        </article>
+      </section>
+    </section>
+    <!-- Banner two -->
+    <section class="banner2">
+      <aside class="banner2__aside">
+        <h2 class="banner2__aside--title">Categories</h2>
+        <p class="banner2__aside--description">Enhance Your Music Experience</p>
+        <div class="banner2__aside__time">
+          <span class="banner2__aside__time__item">
+            <span class="time__item--number">05</span>
+            <span class="time__item--description">Days</span>
+          </span>
+          <span class="banner2__aside__time__item">
+            <span class="time__item--number">23</span>
+            <span class="time__item--description">Hours</span>
+          </span>
+          <span class="banner2__aside__time__item">
+            <span class="time__item--number">59</span>
+            <span class="time__item--description">Minutes</span>
+          </span>
+          <span class="banner2__aside__time__item">
+            <span class="time__item--number">35</span>
+            <span class="time__item--description">Seconds</span>
+          </span>
+        </div>
+        <button class="banner2__aside--button">Buy Now!</button>
+      </aside>
+      <figure class="banner2__figure">
+        <img class="banner2__figure--img" src="https://i.postimg.cc/rpKpg4Bz/JBL-BOOMBOX-2-HERO-020-x1-1-1.png" alt="">
+      </figure>
+    </section>
+    <!-- Other Products -->
+    <section class="section">
+      <section class="section__header">
+        <article class="section__header--title">
+          <span class="section__header--title-span"></span>
+          <span class="section__header--title-text">This Month</span>
+        </article>
+        <article class="section__header--content">
+          <div class="section__header--content--text">
+            <span class="content--text--logo">Best Selling Products</span>
+          </div>
+          <button class="section__header__btn">View All Products</button>
+        </article>
+      </section>
+      <section class="section__body">
+        <article class="card">
+          <div class="card__content">
+            <figure class="card__figure">
+              <span class="card__Badges--Transparent">%</span>
+              <i class="card__figure--img">
+                <img class="" src="https://i.postimg.cc/3R7nsBzF/71-Rdoe-Xxtr-L-1.png" alt="">
+              </i>
+            </figure>
+            <div class="card__content--iconos">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-eye"></i>
+            </div>
+          </div>
+          <span class="card__addbtn--transparent">Add To Cart</span>
+          <p class="card__content--description">Breed Dry Dog Food</p>
+          <span class="card__price--currentPrice">$100</span>
+          <span class="card__price--previousPrice"></span>
+          <div class="card__valoration">
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--fill"></i>
+            <i class="fa-solid fa-star card__start--fill"></i>
+            <span class="card__valoration--amount">(35)</span>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__content">
+            <figure class="card__figure">
+              <span class="card__Badges--Transparent">%</span>
+              <i class="card__figure--img">
+                <img class="" src="https://i.postimg.cc/L58vXs9q/eos-250d-03-500x500-1.png" alt="">
+              </i>
+            </figure>
+            <div class="card__content--iconos">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-eye"></i>
+            </div>
+          </div>
+          <span class="card__addbtn">Add To Cart</span>
+          <p class="card__content--description">CANON EOS DSLR Camera</p>
+          <span class="card__price--currentPrice">$360</span>
+          <span class="card__price--previousPrice"></span>
+          <div class="card__valoration">
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--fill"></i>
+            <span class="card__valoration--amount">(95)</span>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__content">
+            <figure class="card__figure">
+              <span class="card__Badges--Transparent">%</span>
+              <i class="card__figure--img">
+                <img class="" src="https://i.postimg.cc/MpZHMNt7/graphic-card.png" alt="">
+              </i>
+            </figure>
+            <div class="card__content--iconos">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-eye"></i>
+            </div>
+          </div>
+          <span class="card__addbtn--transparent">Add To Cart</span>
+          <p class="card__content--description">ASUS FHD Gaming Laptop</p>
+          <span class="card__price--currentPrice">$700</span>
+          <span class="card__price--previousPrice"></span>
+          <div class="card__valoration">
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <span class="card__valoration--amount">(325)</span>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__content">
+            <figure class="card__figure">
+              <span class="card__Badges--Transparent">%</span>
+              <i class="card__figure--img">
+                <img class="" src="https://i.postimg.cc/tgFBvfvg/curology-j7p-KVQr-TUs-M-unsplash-1.png" alt="">
+              </i>
+            </figure>
+            <div class="card__content--iconos">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-eye"></i>
+            </div>
+          </div>
+          <span class="card__addbtn--transparent">Add To Cart</span>
+          <p class="card__content--description">Curology Product Set </p>
+          <span class="card__price--currentPrice">$500</span>
+          <span class="card__price--previousPrice"></span>
+          <div class="card__valoration">
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--fill"></i>
+            <span class="card__valoration--amount">(145)</span>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__content">
+            <figure class="card__figure">
+              <span class="card__Badges--New">NEW</span>
+              <i class="card__figure--img">
+                <img class=""
+                  src="https://i.postimg.cc/HkqS2H2K/New-Mercedes-Benz-Gtr-Licensed-Ride-on-Car-Kids-Electric-Toy-Car-1.png"
+                  alt="">
+              </i>
+            </figure>
+            <div class="card__content--iconos">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-eye"></i>
+            </div>
+          </div>
+          <span class="card__addbtn--transparent">Add To Cart</span>
+          <p class="card__content--description">Kids Electric Car</p>
+          <span class="card__price--currentPrice">$960</span>
+          <span class="card__price--previousPrice"></span>
+          <div class="card__valoration">
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <span class="card__valoration--amount">(65)</span>
+          </div>
+          <figure>
+            <img src="Iconos/CheckRadiusBgRed.svg" alt="">
+            <img src="Iconos/ChexkSolidBgOrange.svg" alt="">
+          </figure>
+        </article>
+        <article class="card">
+          <div class="card__content">
+            <figure class="card__figure">
+              <span class="card__Badges--Transparent">%</span>
+              <i class="card__figure--img">
+                <img class="" src="https://i.postimg.cc/8kWjqhj6/Bag.png" alt="">
+              </i>
+            </figure>
+            <div class="card__content--iconos">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-eye"></i>
+            </div>
+          </div>
+          <span class="card__addbtn--transparent">Add To Cart</span>
+          <p class="card__content--description">Jr. Zoom Soccer Cleats</p>
+          <span class="card__price--currentPrice">$1160</span>
+          <span class="card__price--previousPrice">$1160</span>
+          <div class="card__valoration">
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <span class="card__valoration--amount">(35)</span>
+          </div>
+          <figure>
+            <img src="Iconos/ChexkSolidBgYellowRB2.svg" alt="">
+            <img src="Iconos/ChexkSolidBgOrange.svg" alt="">
+          </figure>
+        </article>
+        <article class="card">
+          <div class="card__content">
+            <figure class="card__figure">
+              <span class="card__Badges--New">NEW</span>
+              <i class="card__figure--img">
+                <img class="" src="https://i.postimg.cc/CL6rRbfw/GP11-PRD3-1.png" alt="">
+              </i>
+            </figure>
+            <div class="card__content--iconos">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-eye"></i>
+            </div>
+          </div>
+          <span class="card__addbtn--transparent">Add To Cart</span>
+          <p class="card__content--description">GP11 Shooter USB Gamepad</p>
+          <span class="card__price--currentPrice">$660</span>
+          <span class="card__price--previousPrice"></span>
+          <div class="card__valoration">
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <span class="card__valoration--amount">(55)</span>
+          </div>
+          <figure>
+            <img src="Iconos/CheckRadiusBgBlack.svg" alt="">
+            <img src="Iconos/ChexkSolidBgOrange.svg" alt="">
+          </figure>
+        </article>
+        <article class="card">
+          <div class="card__content">
+            <figure class="card__figure">
+              <span class="card__Badges--Transparent">%</span>
+              <i class="card__figure--img">
+                <img class=""
+                  src="https://i.postimg.cc/Wb4fp5z9/698717-Z8-A1-X-3475-001-100-0000-Light-Reversible-quilted-satin-jacket-1.png"
+                  alt="">
+              </i>
+            </figure>
+            <div class="card__content--iconos">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-eye"></i>
+            </div>
+          </div>
+          <span class="card__addbtn--transparent">Add To Cart</span>
+          <p class="card__content--description">Quilted Satin Jacke</p>
+          <span class="card__price--currentPrice">$660</span>
+          <span class="card__price--previousPrice"></span>
+          <div class="card__valoration">
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <i class="fa-solid fa-star card__start--full"></i>
+            <span class="card__valoration--amount">(55)</span>
+          </div>
+          <figure>
+            <img src="Iconos/CheckRadiusBgGreen.svg" alt="">
+            <img src="Iconos/ChexkSolidBgOrange.svg" alt="">
+          </figure>
+        </article>
+      </section>
+      <section class="section__footer">
+        <button class="section__header__btn">View All Products</button>
+      </section>
+    </section>
+    <!-- New Arrival -->
+    <section class="section">
+      <section class="section__header">
+        <article class="section__header--title">
+          <span class="section__header--title-span"></span>
+          <span class="section__header--title-text">Featured</span>
+        </article>
+        <article class="section__header--content">
+          <div class="section__header--content--text">
+            <span class="content--text--logo">New Arrival</span>
+          </div>
+          <button class="section__header__btn">View All Products</button>
+        </article>
+      </section>
+      <section class="section__body">
+        <table>
+          <tbody>
+            <tr>
+              <td class="cell1" rowspan="2">
+                <figure class="fig">
+                  <img class="fig--img" src="https://i.postimg.cc/XNLz0RjG/ps5-slim-goedkope-playstation-large-1.png"
+                    alt="">
+                </figure>
+              </td>
+              <td class="cell2" colspan="2">
+                <article class="fig--flex">
+                  <div class="fig--flex-text"></div>
+                  <figure class="fig--flex-img">
+                    <img class="fig--img2"
+                      src="https://i.postimg.cc/52vxpBvm/attractive-woman-wearing-hat-posing-black-background-1.png"
+                      alt="">
+                  </figure>
+                </article>
+              </td>
+            </tr>
+            <tr>
+              <td class="cell3">
+              </td>
+              <td class="cell4">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </section>
+  </main>
+  <footer>
+  </footer>
+</body>
+
+</html>
